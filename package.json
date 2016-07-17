@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "deploy": "grunt deploy"
+    "scripts": "gulp scripts",
+    "webpack": "webpack",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,19 @@
   },
   "homepage": "https://github.com/Neitsch/pd-tournament#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-surge": "^0.7.0",
-    "surge": "^0.18.0"
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-surge": "^0.1.0",
+    "surge": "^0.18.0",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
   },
   "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
   }
 }
