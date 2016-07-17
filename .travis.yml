@@ -5,6 +5,5 @@ install:
   - npm install
 script:
   - npm test
-  - npm run scripts
 after_success:
   - npm run deploy
