@@ -1,5 +1,11 @@
 language: node_js
 node_js:
   - "6.3"
-after_success:
+install:
+  - npm install
+script:
+  - npm test
+before_deploy:
+  - npm run scripts
+deploy:
   - npm run deploy
