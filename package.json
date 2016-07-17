@@ -38,6 +38,7 @@
     "gulp-eslint": "^3.0.1",
     "gulp-surge": "^0.1.0",
     "gulp-uglify": "^1.5.4",
+    "reindex-cli": "^0.4.2",
     "surge": "^0.18.0",
     "webpack": "^1.13.1",
     "webpack-stream": "^3.2.0"
