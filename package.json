@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "schema": "reindex schema-push && reindex schema-relay ./data/schema.json",
+    "schema": "reindex schema-push && reindex schema-relay ./schema.json",
     "scripts": "gulp scripts",
     "webpack": "webpack",
     "lint": "gulp js-lint",
