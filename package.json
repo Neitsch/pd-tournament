@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Neitsch/pd-tournament#readme",
   "devDependencies": {
-    "grunt-surge": "^0.7.0"
+    "grunt": "^1.0.1",
+    "grunt-surge": "^0.7.0",
+    "surge": "^0.18.0"
+  },
+  "dependencies": {
   }
 }
